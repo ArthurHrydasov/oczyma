@@ -135,6 +135,31 @@ var slidesI = [
     ["n", "w_541", "w_460", "w_460", "n", "n", "n"],
     "Skill Speak",
   ],
+    [
+    "sphere",
+    [
+      "https://uploads-ssl.webflow.com/647325e0c1789b5891b42f7b/65b92a58222a7b1e53711c89_sphere_1.webp",
+      "https://uploads-ssl.webflow.com/647325e0c1789b5891b42f7b/65b92a59e7c7203ec649acc6_sphere_2.webp",
+      "https://uploads-ssl.webflow.com/647325e0c1789b5891b42f7b/65b92a58a14db0eb99273831_sphere_3.webp",
+      "https://uploads-ssl.webflow.com/647325e0c1789b5891b42f7b/65b92a58003441b3f9cb34dd_sphere_4.webp",
+      "https://uploads-ssl.webflow.com/647325e0c1789b5891b42f7b/65b92a58dc2e940700011c09_sphere_5.webp",
+      "https://uploads-ssl.webflow.com/647325e0c1789b5891b42f7b/65b92a58f816cbe4df6ff6d8_sphere_6.webp",
+      "https://uploads-ssl.webflow.com/647325e0c1789b5891b42f7b/65b92a5817f77a4a047babe5_sphere_7.webp",
+    ],
+    [
+      "https://uploads-ssl.webflow.com/647325e0c1789b5891b42f7b/65b92b77bb01d5afcbecba45_sphere_mobile_1.webp",
+      "https://uploads-ssl.webflow.com/647325e0c1789b5891b42f7b/65b92b77c7a8fcd641256335_sphere_mobile_2.webp",
+      "https://uploads-ssl.webflow.com/647325e0c1789b5891b42f7b/65b92b77c61a1f6d8b75f208_sphere_mobile_3.webp",
+      "https://uploads-ssl.webflow.com/647325e0c1789b5891b42f7b/65b92b77cb68e2a1b95e7e57_sphere_mobile_4.webp",
+      "https://uploads-ssl.webflow.com/647325e0c1789b5891b42f7b/65b92b774bb9b05acec2bbe0_sphere_mobile_5.webp",
+      "https://uploads-ssl.webflow.com/647325e0c1789b5891b42f7b/65b92b3917f77a4a047c2bff_sphere_mobile_6.webp",
+      "https://uploads-ssl.webflow.com/647325e0c1789b5891b42f7b/65b92b7717bcc1ad30f82ff0_sphere_mobile_7.webp",
+      "https://uploads-ssl.webflow.com/647325e0c1789b5891b42f7b/65b92b3a434501ed7e050768_sphere_mobile_8.webp",
+      "https://uploads-ssl.webflow.com/647325e0c1789b5891b42f7b/65b92b7741d018bac5f79cbf_sphere_mobile_9.webp",
+    ],
+    ["n", "w_541", "w_460", "w_460", "n", "n", "n"],
+    "Sphere Work",
+  ],
   ,
 ];
 
