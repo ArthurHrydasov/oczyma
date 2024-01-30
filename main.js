@@ -157,7 +157,7 @@ var slidesI = [
       "https://uploads-ssl.webflow.com/647325e0c1789b5891b42f7b/65b92b3a434501ed7e050768_sphere_mobile_8.webp",
       "https://uploads-ssl.webflow.com/647325e0c1789b5891b42f7b/65b92b7741d018bac5f79cbf_sphere_mobile_9.webp",
     ],
-    ["n", "w_541", "w_460", "w_460", "n", "n", "n"],
+    ["n", "n", "w_200", "n", "n", "w_300", "n", "w_171", "n"],
     "Sphere Work",
   ],
   ,
