@@ -4,7 +4,6 @@ let target = 0;
 let ease = window.innerWidth > 992 ? 0.02 : 0.04;
 let maxScroll;
 
-// if (!currentUrl.includes("projects")) {
 const slider = document.querySelector(".slider_proj");
 const sliderWrapper = document.querySelector(".slider_wrapper");
 const sliderWrapperB = document.querySelector(".slider_block_wrapper");
@@ -608,28 +607,30 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 });
 
-var elements = document.querySelectorAll('.projects_item_tag');
-var counts = {
-  'Design': 0,
-  'Social Media': 0,
-  'Creative': 0,
-  'Support': 0
-};
+if (currentUrl !== 'https://oczyma.webflow.io/') {
+  var elements = document.querySelectorAll('.projects_item_tag');
+  var counts = {
+    'Design': 0,
+    'Social Media': 0,
+    'Creative': 0,
+    'Support': 0
+  };
 
-elements.forEach(element => {
-  if (element.textContent.includes('/Web-design')) counts['Design']++; 
-  if (element.textContent.includes('/Social Media')) counts['Social Media']++; 
-  if (element.textContent.includes('/Creative')) counts['Creative']++; 
-  if (element.textContent.includes('/Support')) counts['Support']++; 
-});
+  elements.forEach(element => {
+    if (element.textContent.includes('/Web-design')) counts['Design']++; 
+    if (element.textContent.includes('/Social Media')) counts['Social Media']++; 
+    if (element.textContent.includes('/Creative')) counts['Creative']++; 
+    if (element.textContent.includes('/Support')) counts['Support']++; 
+  });
 
-function padValue(value) {
-  return value < 10 ? '0' + value : value;
+  function padValue(value) {
+    return value < 10 ? '0' + value : value;
+  }
+
+  document.querySelectorAll('[web_numb]').forEach(element => {
+    element.innerHTML = padValue(counts['Design']);
+  });
+  document.querySelector('[social_numb]').innerHTML = padValue(counts['Social Media']);
+  document.querySelector('[creative_numb]').innerHTML = padValue(counts['Creative']);
+  document.querySelector('[support_numb]').innerHTML = padValue(counts['Support']);
 }
-
-document.querySelectorAll('[web_numb]').forEach(element => {
-  element.innerHTML = padValue(counts['Design']);
-});
-document.querySelector('[social_numb]').innerHTML = padValue(counts['Social Media']);
-document.querySelector('[creative_numb]').innerHTML = padValue(counts['Creative']);
-document.querySelector('[support_numb]').innerHTML = padValue(counts['Support']);
