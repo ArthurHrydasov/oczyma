@@ -607,7 +607,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 });
 
-if (currentUrl !== 'https://oczyma.webflow.io/') {
+if (currentUrl.includes('projects')) {
   var elements = document.querySelectorAll('.projects_item_tag');
   var counts = {
     'Design': 0,
