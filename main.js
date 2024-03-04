@@ -4,6 +4,7 @@ let target = 0;
 let ease = window.innerWidth > 992 ? 0.02 : 0.04;
 let maxScroll;
 
+if (!currentUrl.includes('privacy-policy')) {
 const slider = document.querySelector(".slider_proj");
 const sliderWrapper = document.querySelector(".slider_wrapper");
 const sliderWrapperB = document.querySelector(".slider_block_wrapper");
@@ -476,7 +477,7 @@ slider_proj_close.forEach((element) => {
     ease = 0;
   });
 });
-// }
+ }
 // variables
 let customEase =
   "M0,0,C0,0,0.13,0.34,0.238,0.442,0.305,0.506,0.322,0.514,0.396,0.54,0.478,0.568,0.468,0.56,0.522,0.584,0.572,0.606,0.61,0.719,0.714,0.826,0.798,0.912,1,1,1,1";
