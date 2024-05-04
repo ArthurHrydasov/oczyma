@@ -38,3 +38,18 @@
     height: calc(var(--vh, 1vh) * 100) !important;
   }
 }
+
+body {
+  overflow: hidden;
+}
+.loader {
+  display: flex;
+}
+.loader.load_none {
+  transition: transform 0.9s cubic-bezier(0.77, 0, 0.175, 1);
+  transform: translateY(-110vh);
+}
+.preload_logo_svg {
+  position: relative;
+  z-index: 1;
+}
