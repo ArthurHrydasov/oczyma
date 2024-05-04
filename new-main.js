@@ -72,9 +72,9 @@ if (window.innerWidth < 991) {
   let counter = {
     value: 10,
   };
-  let loaderDuration = 5;
+  let loaderDuration = 6;
   if (sessionStorage.getItem("visited") !== null) {
-    loaderDuration = 1;
+    loaderDuration = 3;
     counter = {
       value: 10,
     };
