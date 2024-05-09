@@ -1,10 +1,10 @@
 .dropdown_circle {
   transform: scale(0);
 }
-.dropdown_link, .dropdown_circle  {
+.dropdown_link, .dropdown_circle {
   transition: all 0.3s ease-in-out;
 }
-.dropdown_link  {
+.dropdown_link {
   padding-left: 0rem;
 }
 .dropdown_link:hover .dropdown_circle {
@@ -34,8 +34,8 @@
 }
 @media screen and (max-width: 991px) {
   .mobile_menu_wrapper {
-    height: 100vh !important;
-    height: calc(var(--vh, 1vh) * 100) !important;
+    height: calc(100vh - 2.5rem) !important;
+    height: calc(var(--vh, 1vh) * 100 - 2.5rem) !important;
   }
 }
 
